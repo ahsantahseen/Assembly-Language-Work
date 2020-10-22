@@ -10,9 +10,9 @@
 
 Main Proc
 
-mov bl,1
+mov bl,5
 mov cl,3
-add bl,cl
+sub bl,cl
 add bl,48
 mov dl,bl
 mov ah,2
