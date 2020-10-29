@@ -1,4 +1,4 @@
-;program to add two numbers
+;program to subract two numbers
 
 .model small
 .stack 100h
