@@ -16,7 +16,17 @@ mov ax,@data
 mov ds,ax
 mov dl,var1
 mov ah,2
-int 21h
+int 21h 
+mov dl,var2
+mov ah,2
+int 21h 
+mov dl,var3
+mov ah,2
+int 21h 
+mov dl,var4
+mov ah,2
+int 21h 
+
 mov ah,4ch
 int 21h
 Main EndP
