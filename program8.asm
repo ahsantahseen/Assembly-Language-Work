@@ -1,4 +1,4 @@
-;Program to decrement an operand by inc instruction 
+;Program to decrement an operand by dec instruction 
 
 .model small
 .stack 100h
