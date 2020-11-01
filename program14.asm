@@ -1,4 +1,4 @@
-;Program to convert a lower case letter to upper case letter
+;Program to convert a uppercase letter to lowercase letter
 
 
 .model small
