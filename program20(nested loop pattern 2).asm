@@ -1,4 +1,4 @@
-;Program to print the following pattern right angle triangle using loops
+;Program to print the following pattern right angle triangle using nested loops
 ;*
 ;**
 ;***
