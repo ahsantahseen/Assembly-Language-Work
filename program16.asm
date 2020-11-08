@@ -1,4 +1,4 @@
-;Program to access array using indirect opperator
+;Program to access array using pointer
 
 .model small
 .stack 100h
@@ -13,14 +13,17 @@ Main Proc
      
      mov si,offset arr1 
      mov cx,4
+
      l1:
      mov dx,[si]
      mov ah,2
      int 21h
      inc si
      loop l1
+     
      mov ah,4ch
      int 21h
+
 Main EndP
 End Main
 
