@@ -1,5 +1,5 @@
-
 ; To push and pop value 2 onto/from the stack
+
 .model small
 .stack 100h
 .data

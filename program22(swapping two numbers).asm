@@ -13,18 +13,14 @@ Main Proc
 mov ax,'2'
 mov bx,'3'
         
-        
-
 mov dx,ax
 mov ah,2
 int 21h 
 push ax
-
 mov dx,bx
 mov ah,2
 int 21h        
 push bx
-
 mov dx,10
 mov ah,2
 int 21h
