@@ -1,6 +1,5 @@
 
 ;Program to add two numbers by proc
-org 100h
 
 .model small
 .stack 100h
