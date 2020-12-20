@@ -17,7 +17,7 @@ add dl,48
 mov ah,2
 int 21h 
 cmp bx,5
-loope L1
+loope L1 ;loopz L1
 Main Proc
 
 Main EndP
