@@ -58,8 +58,6 @@ int 21h
 Main EndP
 End Main
 
-ret
-
 
 
 
